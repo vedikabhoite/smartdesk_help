@@ -1,0 +1,235 @@
+{
+  "model_name": "google/flan-t5-small",
+  "labels": [
+    "Billing",
+    "Technical Issue",
+    "Account Access",
+    "General Inquiry"
+  ],
+  "prompt_template": "Classify the support ticket into one of these categories: Billing, Technical Issue, Account Access, General Inquiry. Ticket: {ticket}",
+  "max_len": 128,
+  "dataset_note": "Synthetic, hand-written dataset. Train and test sets are different sentences.",
+  "train_size": 96,
+  "test_size": 32,
+  "epochs": 10,
+  "batch_size": 8,
+  "learning_rate": 0.0003,
+  "final_train_loss": 0.0051430184103082865,
+  "accuracy": 0.9375,
+  "precision_macro": 0.9409722222222222,
+  "recall_macro": 0.9375,
+  "f1_macro": 0.9373774509803922,
+  "confusion_matrix": [
+    [
+      7,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      8
+    ]
+  ],
+  "per_class": {
+    "Billing": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1-score": 0.9333333333333333,
+      "support": 8.0
+    },
+    "Technical Issue": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "Account Access": {
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1-score": 0.875,
+      "support": 8.0
+    },
+    "General Inquiry": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    }
+  },
+  "invalid_predictions": 0,
+  "avg_ticket_tokens": 11.75,
+  "avg_model_input_tokens": 39.75,
+  "total_model_input_tokens": 1272,
+  "avg_inference_seconds": 0.14392893912501137,
+  "total_inference_seconds": 4.605726052000364,
+  "device_used_for_evaluation": "cuda",
+  "extended": {
+    "note": "Validation values reuse the test tickets because there is no separate validation set.",
+    "items": [
+      {
+        "no": 1,
+        "name": "Accuracy",
+        "value": "0.938",
+        "how": "Correct predictions / all test tickets"
+      },
+      {
+        "no": 2,
+        "name": "Precision",
+        "value": "0.941",
+        "how": "Macro average over the 4 categories"
+      },
+      {
+        "no": 3,
+        "name": "Recall",
+        "value": "0.938",
+        "how": "Macro average over the 4 categories"
+      },
+      {
+        "no": 4,
+        "name": "F1-Score",
+        "value": "0.937",
+        "how": "Macro average over the 4 categories"
+      },
+      {
+        "no": 5,
+        "name": "Error Rate",
+        "value": "0.062",
+        "how": "1 - test accuracy"
+      },
+      
+    
+      {
+        "no": 6,
+        "name": "Overfitting",
+        "value": "Not seen (gap 0.062)",
+        "how": "Flag if training accuracy is more than 0.10 above test accuracy"
+      },
+      {
+        "no": 7,
+        "name": "Underfitting",
+        "value": "Not seen (train acc 1.000)",
+        "how": "Flag if training accuracy is below 0.70"
+      },
+      {
+        "no": 8,
+        "name": "Training Loss",
+        "value": "0.0051",
+        "how": "Average cross-entropy loss in the last epoch"
+      },
+      
+      {
+        "no": 9,
+        "name": "Validation Accuracy",
+        "value": "0.938",
+        "how": "Same test tickets as Testing Accuracy (no separate validation set)"
+      },
+      {
+        "no": 10,
+        "name": "Testing Accuracy",
+        "value": "0.938",
+        "how": "Accuracy on the 32 unseen test tickets"
+      },
+      {
+        "no": 11,
+        "name": "Learning Rate",
+        "value": "0.0003",
+        "how": "AdamW step size, fixed for all epochs"
+      },
+      {
+        "no": 12,
+        "name": "Convergence Rate",
+        "value": "5 of 10 epochs",
+        "how": "Epochs needed for 90% of the loss drop (loss 0.790 to 0.005)"
+      },
+    
+      {
+        "no": 13,
+        "name": "Robustness",
+        "value": "0.865",
+        "how": "Average accuracy on altered test tickets: uppercase 0.750, no punctuation 0.938, typos 0.906"
+      },
+      {
+        "no": 14,
+        "name": "Model Complexity",
+        "value": "77.0 M parameters",
+        "how": "8 encoder + 8 decoder layers, d_model 512"
+      },
+      {
+        "no": 15,
+        "name": "Training Time",
+        "value": "22.4 s",
+        "how": "10 epochs on cuda"
+      },
+      {
+        "no": 16,
+        "name": "Testing Time",
+        "value": "4.61 s",
+        "how": "Total time to predict the 32 test tickets on cuda"
+      },
+      {
+        "no": 17,
+        "name": "Prediction Time",
+        "value": "144 ms",
+        "how": "Average per ticket (first warm-up call excluded)"
+      },
+      {
+        "no": 18,
+        "name": "Memory Usage",
+        "value": "308 MB weights, 1568 MB GPU peak (training), 2025 MB RAM",
+        "how": "Weights in memory, peak GPU memory while training, and notebook RAM"
+      },
+      {
+        "no": 19,
+        "name": "Model Size",
+        "value": "308 MB",
+        "how": "Saved model weights file in smartdesk_model"
+      }
+    ],
+    "loss_curve": {
+      "train": [
+        0.7896439830462137,
+        0.30533841376503307,
+        0.18191671650856733,
+        0.08917851901302735,
+        0.04439541053337356,
+        0.006742239934586299,
+        0.024960650383339573,
+        0.014336123344643662,
+        0.004993422347373174,
+        0.0051430184103082865
+      ],
+      "validation": [
+        0.47915354929864407,
+        0.3138412538683042,
+        0.13589348876848817,
+        0.08543754623678979,
+        0.05250395377515815,
+        0.043547212197154295,
+        0.012420782913977746,
+        0.05974227973820234,
+        0.08040899874640672,
+        0.06582305368829111
+      ]
+    },
+    "robustness_by_change": {
+      "uppercase": 0.75,
+      "no punctuation": 0.9375,
+      "typos": 0.90625
+    }
+  }
+}

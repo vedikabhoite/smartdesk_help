@@ -1,0 +1,33 @@
+text,label
+I got charged two times for the same order.,Billing
+Could you email me the invoice for September?,Billing
+My card payment failed but money left my account.,Billing
+Why does my bill include a service fee I never agreed to?,Billing
+I want my money back for the premium plan.,Billing
+How do I add a GST number to my invoice?,Billing
+The coupon was not applied at checkout and I was overcharged.,Billing
+Please stop automatic billing on my account.,Billing
+The application closes by itself when I tap the icon.,Technical Issue
+I keep getting an error when uploading a photo.,Technical Issue
+The dashboard takes forever to load.,Technical Issue
+Push notifications stopped arriving on my device.,Technical Issue
+The print button is not working on the reports page.,Technical Issue
+The app is lagging and freezing on my tablet.,Technical Issue
+My data is not syncing across my devices.,Technical Issue
+The website shows a 404 error on the settings page.,Technical Issue
+"I cannot remember my password, how do I get back in?",Account Access
+My account got locked after I entered the wrong PIN.,Account Access
+The password reset email never reached my inbox.,Account Access
+I want to change the email I use to sign in.,Account Access
+The OTP for logging in is not coming to my phone.,Account Access
+"I think my account was hacked, please help me secure it.",Account Access
+How can I turn on two-step verification?,Account Access
+Please help me regain access to my account.,Account Access
+When is your support team available?,General Inquiry
+Is there any discount for students?,General Inquiry
+Which cities do you have offices in?,General Inquiry
+Can you share details about the features of the pro plan?,General Inquiry
+Is there a mobile app I can download?,General Inquiry
+How can I reach your sales department?,General Inquiry
+Do you provide a free trial period?,General Inquiry
+Is there documentation or a guide for beginners?,General Inquiry

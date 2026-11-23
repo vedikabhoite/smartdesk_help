@@ -1,0 +1,97 @@
+text,label
+I was charged twice for my subscription this month.,Billing
+Please send me a copy of my latest invoice.,Billing
+My credit card was declined when I tried to renew my plan.,Billing
+I want a refund for the payment made yesterday.,Billing
+Why was I billed 20 dollars more than usual?,Billing
+How can I update my billing address on the invoice?,Billing
+The discount code did not apply and I paid the full price.,Billing
+I was charged after I cancelled my subscription.,Billing
+Can you explain the extra fee on my last bill?,Billing
+I need a receipt for my payment for tax purposes.,Billing
+My payment went through but the order still shows unpaid.,Billing
+How do I change my payment method to a different card?,Billing
+I see an unknown transaction on my bank statement from your company.,Billing
+Can I get a refund for the annual plan I bought by mistake?,Billing
+My monthly bill is higher than the price shown on the pricing page.,Billing
+The auto-renewal charged me without any reminder.,Billing
+I paid the invoice but it still says overdue.,Billing
+Is there a late fee if I pay my bill after the due date?,Billing
+Please cancel my recurring payment and refund this month.,Billing
+The tax amount on my invoice looks incorrect.,Billing
+My UPI payment was deducted but the plan was not activated.,Billing
+I upgraded my plan but was billed for the old price.,Billing
+Can I switch from monthly billing to yearly billing?,Billing
+I did not receive the refund you promised last week.,Billing
+The app crashes every time I open it.,Technical Issue
+The website keeps loading and never shows the dashboard.,Technical Issue
+I get a 500 error when I upload a file.,Technical Issue
+The mobile app freezes on the home screen.,Technical Issue
+Notifications are not working on my phone.,Technical Issue
+The export to PDF button does nothing.,Technical Issue
+Pages load very slowly since the last update.,Technical Issue
+The report page shows a blank white screen.,Technical Issue
+The video player stops after a few seconds.,Technical Issue
+Search results are not loading properly.,Technical Issue
+The app shows an error message saying something went wrong.,Technical Issue
+My files are not syncing between my laptop and phone.,Technical Issue
+The chat feature is not sending my messages.,Technical Issue
+The software will not install on my computer.,Technical Issue
+The page layout is broken on my browser.,Technical Issue
+The dark mode setting does not save.,Technical Issue
+I get a timeout error while saving my work.,Technical Issue
+The camera does not work inside the app.,Technical Issue
+The download keeps failing at 90 percent.,Technical Issue
+The button to submit the form is not responding.,Technical Issue
+The app drains my battery very fast after the new version.,Technical Issue
+Images are not displaying on the product page.,Technical Issue
+I found a bug where the calendar shows the wrong dates.,Technical Issue
+The system is down and none of the pages are opening.,Technical Issue
+I forgot my password and cannot log in.,Account Access
+My account is locked after too many login attempts.,Account Access
+I did not receive the password reset email.,Account Access
+How do I change the email address linked to my account?,Account Access
+I cannot sign in because the verification code never arrives.,Account Access
+"Someone else may have accessed my account, please secure it.",Account Access
+I want to enable two-factor authentication.,Account Access
+My username is not recognized when I try to log in.,Account Access
+Please help me recover my account.,Account Access
+I lost my phone and cannot get the login OTP.,Account Access
+My account was suspended and I do not know why.,Account Access
+How can I delete my account permanently?,Account Access
+The reset link says it has expired.,Account Access
+I cannot log in with my Google account.,Account Access
+Please unlock my account so I can sign in.,Account Access
+I want to change my password but the old one is not accepted.,Account Access
+I am unable to access my profile after changing my phone number.,Account Access
+How do I add another member to my team account?,Account Access
+My login credentials are not working on the new device.,Account Access
+Can you merge my two accounts into one?,Account Access
+I need to update the phone number used for login.,Account Access
+The security question answer I set is not accepted.,Account Access
+I cannot access my account because the email is no longer active.,Account Access
+Please reset my login so I can access my account again.,Account Access
+What are your customer support working hours?,General Inquiry
+Do you offer a student discount?,General Inquiry
+Where is your company headquarters located?,General Inquiry
+Can you tell me more about your premium plan features?,General Inquiry
+Do you have a mobile app for Android and iOS?,General Inquiry
+How do I contact your sales team?,General Inquiry
+Is there a free trial available?,General Inquiry
+Which languages does your product support?,General Inquiry
+Do you have any open job positions?,General Inquiry
+Where can I read your privacy policy?,General Inquiry
+Can I get a demo of the product?,General Inquiry
+What is the difference between the basic and pro plans?,General Inquiry
+Do you offer training sessions for new users?,General Inquiry
+Are you planning to launch new features soon?,General Inquiry
+How can I give feedback about your service?,General Inquiry
+Do you have partnerships with universities?,General Inquiry
+Is your service available in India?,General Inquiry
+Can I speak to someone about a bulk order for my company?,General Inquiry
+Where can I find the user guide?,General Inquiry
+Do you ship products internationally?,General Inquiry
+Do you have a community forum for users?,General Inquiry
+How long has your company been in business?,General Inquiry
+What integrations does your product support?,General Inquiry
+I would like to know more about your services.,General Inquiry
